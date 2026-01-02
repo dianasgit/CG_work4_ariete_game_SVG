@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>62229 - SVG</title>
+<style>
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+      90deg,
+      #f4a7a7 0%,
+      #f6b1b1 10%,
+      #f8bcbc 20%,
+      #f9c7c7 30%,
+      #f7e1c7 40%,
+      #fbe3c7 50%,
+      #f9c7c7 60%,
+      #f8bcbc 70%,
+      #f6b1b1 80%,
+      #f4a7a7 100%
+    );
+  }
+  svg {
+    background: #7384e656;
+  }
+</style>
+</head>
+<body>
+
+<h1>62229 – SVG</h1>
+<p id="score"></p>
+
+<svg id="arena" width="800" height="500" viewBox="0 0 600 400">
+
+  <!--BONECO -->
+  <g id="ariete">
+    <circle id="hair2" r="28" fill="#6b3e26"/>
+    <circle id="face" r="25" fill="khaki"/>
+    <circle id="eyeL" r="4" fill="#222"/>
+    <circle id="eyeR" r="4" fill="#222"/>
+    <circle id="boca" r="5" fill="salmon"/>
+    <circle id="nariz" r="2" fill="darkkhaki"/>
+    <rect id="bocaRect" width="13" height="4" fill="khaki"/>
+    <circle id="earL" r="4" fill="khaki"/>
+    <circle id="earR" r="4" fill="khaki"/>
+    <rect id="body" rx="6" ry="6" width="30" height="20" fill="orange" stroke="#000"/>
+    <rect id="pernas" rx="2" ry="2" width="30" height="15" fill="navy" stroke="#000"/>
+    <rect id="pes" rx="2" ry="2" width="30" height="5" fill="black" stroke="#000"/>
+    <circle id="maoL" r="6" fill="khaki" stroke="black"/>
+    <circle id="maoR" r="6" fill="khaki" stroke="black"/>
+    <path id="hair" fill="#6b3e26"/>
+    <rect id="porrete" width="90" height="18" fill="#999"/>
+    <circle id="impacto" r="11" fill="darkred"/>
+  </g>
+</svg>
+
+<script src="js/boneco.js"></script>
+<script src="js/porta.js"></script>
+
+<script src="js/play.js"></script>
+
+</body>
+</html>
