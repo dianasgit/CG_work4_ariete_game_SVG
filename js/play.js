@@ -55,7 +55,7 @@ function update() {
   });
 
   // *** novas portas quanto maior o valor mais rápido se cria
-  if (Math.random() < 0.009) criarPorta();
+  if (Math.random() < 0.0099) criarPorta();
 
   // pontuação
   const time = ((performance.now() - startTime) / 1000).toFixed(1);
